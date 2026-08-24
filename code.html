@@ -5,17 +5,34 @@
 </head>
 <body>
 
-<h2>Passport Automation System</h2>
+<h2>Passport Application</h2>
 
 <form>
-    Name: <input type="text"><br><br>
-    Date of Birth: <input type="date"><br><br>
-    Address: <input type="text"><br><br>
-    Nationality: <input type="text"><br><br>
-    Phone Number: <input type="tel"><br><br>
+    Name:
+    <input type="text" name="name"><br><br>
 
-    <button type="submit">Apply for Passport</button>
+    Date of Birth:
+    <input type="date" name="dob"><br><br>
+
+    Gender:
+    <select>
+        <option>Male</option>
+        <option>Female</option>
+        <option>Other</option>
+    </select><br><br>
+
+    Email:
+    <input type="email" name="email"><br><br>
+
+    Upload Photo:
+    <input type="file"><br><br>
+
+    <button type="submit">Submit</button>
 </form>
+
+<h3>Application Status</h3>
+<input type="text" placeholder="Application Number">
+<button>Check Status</button>
 
 </body>
 </html>
